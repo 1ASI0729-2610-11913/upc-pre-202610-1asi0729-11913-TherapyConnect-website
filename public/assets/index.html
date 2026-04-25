@@ -11,7 +11,7 @@
 
 <nav>
     <a class="logo" href="#hero">
-        <img class="logo-img" src="./images/logo_TC.png" alt="TherapyConnect" onerror="this.style.background='#6C3EF4';this.removeAttribute('src')" />
+        <img class="logo-img" src="./images/logo_TC.png" alt="TherapyConnect" />
         TherapyConnect
     </a>
 
@@ -189,11 +189,11 @@
     <div class="contact-grid">
         <form class="contact-form">
             <label for="name" data-i18n="form_name">Nombre</label>
-            <input id="name" type="text" />
+            <input id="name" type="text" required />
             <label for="email" data-i18n="form_email">Correo</label>
-            <input id="email" type="email" />
+            <input id="email" type="email" required />
             <label for="msg" data-i18n="form_message">Mensaje</label>
-            <textarea id="msg"></textarea>
+            <textarea id="msg" required ></textarea>
             <button type="button" class="btn-primary" data-i18n="form_send">Enviar mensaje</button>
         </form>
     </div>
@@ -208,10 +208,10 @@
         <div class="footer-col">
             <h4 data-i18n="company">Company</h4>
             <ul>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">Careers</a></li>
-                <li><a href="#">Press</a></li>
+                <li><a href="javascript:void(0)">About</a></li>
+                <li><a href="javascript:void(0)">Blog</a></li>
+                <li><a href="javascript:void(0)">Careers</a></li>
+                <li><a href="javascript:void(0)">Press</a></li>
             </ul>
         </div>
         <div class="footer-col">
@@ -225,8 +225,8 @@
         <div class="footer-col">
             <h4 data-i18n="contact_footer">Contacto</h4>
             <ul>
-                <li>TherapyConnect@gmail.com</li>
-                <li>+51 999 123 456</li>
+                <li>contact@therapyconnect.com</li>
+                <li>+51 999 999 999</li>
                 <li>Lun - Vie, 9:00 AM - 6:00 PM</li>
             </ul>
         </div>
